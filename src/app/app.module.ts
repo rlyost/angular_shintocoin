@@ -7,10 +7,24 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HttpClient } from 'selenium-webdriver/http';
+import { HomeComponent } from './home/home.component';
+import { MineComponent } from './mine/mine.component';
+import { BuyComponent } from './buy/buy.component';
+import { SellComponent } from './sell/sell.component';
+import { LedgerComponent } from './ledger/ledger.component';
+import { TransactionComponent } from './transaction/transaction.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    MineComponent,
+    BuyComponent,
+    SellComponent,
+    LedgerComponent,
+    TransactionComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
